@@ -103,8 +103,5 @@ ignore:
 theme: fluid
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: git@github.com-personal:dudwns0921/dudwns0921.github.io.git
-  branch: gh-pages
+## main에 푸시하면 GitHub Actions(.github/workflows/deploy.yml)가 빌드해 GitHub Pages에 올린다.
+## 로컬에서 `hexo deploy`를 쓰지 않는다.
