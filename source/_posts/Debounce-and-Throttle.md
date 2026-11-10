@@ -134,7 +134,7 @@ function debounce(cb, delay = 1000) {
 
 그러면 이제 실제 실행 화면을 확인해보자.
 
-<img width="100%" src="/2022/10/06/Debounce-and-Throttle/debounceExample.gif">
+<img width="100%" src="/blog/2022/10/06/Debounce-and-Throttle/debounceExample.gif">
 
 **Debounce**를 쓰지 않은 경우 아까와 동일하게 6번의 request 가 발생했고, **Debounce**를 적용시킨 경우 단 한 번의 request만이 발생했다. 수치상으로 6배의 성능 향상을 확인할 수 있다. 그럼 이제 **Throttle**에 대해서 알아보자.
 
@@ -245,7 +245,7 @@ function throttle(cb, delay = 1000) {
 
 실행 화면을 확인해보자.
 
-<img width="100%" src="/2022/10/06/Debounce-and-Throttle/ThrottleExample.gif">
+<img width="100%" src="/blog/2022/10/06/Debounce-and-Throttle/ThrottleExample.gif">
 
 페이지의 처음부터 끝까지 스크롤하는 동안 **Throttle**을 적용하지 않았을 때는 스크롤이 footer로부터 얼마나 떨어져 있는지 계산하는 연산이 총 67번 수행됐고, **Throttle**을 적용했을 경우에는 단 2번만 수행됐다. 
 
